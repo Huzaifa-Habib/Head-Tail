@@ -13,9 +13,6 @@ function select () {
 
         case 1 :
             document.getElementById("select1").innerText="User2 Have Chance To Choose Toss"
-
-
-            break;    
     }
 
     tossBox.style.display="block";
