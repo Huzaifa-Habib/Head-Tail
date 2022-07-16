@@ -57,11 +57,23 @@ function toss(){
     
     }
 
-    else{
-        result1 !== choiceResult
-        var b =document.getElementById("user2").innerText=score2++
+  
+
+    else if(dice === 0 && result1 !== choiceResult  ){
+         var b = document.getElementById("user2").innerText=score2++
+
 
     }
+
+    else if(dice === 1 && result1 === choiceResult ) {
+        var b = document.getElementById("user2").innerText=score2++
+    }
+
+    else if(dice === 1 && result1 !== choiceResult ){
+        var a = document.getElementById("user1").innerText=score1++
+
+    }
+
 
     var finallResult=  document.getElementById("finallResult")
     finallResult.style.display="none"
