@@ -1,0 +1,178 @@
+.score{
+    display: flex;
+}
+
+.score h3{
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    text-align: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: indianred;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+   
+}
+
+.main-heading{
+    text-transform: capitalize;
+    font-family: cursive;
+    color:brown;
+
+}
+
+#dice{
+    width: 20%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+    letter-spacing: 0.3em;
+    background-color: cadetblue;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+
+
+}
+
+
+#select{
+    font-family: Arial, Helvetica, sans-serif;
+    color: cornflowerblue;
+    margin-top: 30px;
+}
+
+.toss-box{
+    text-align: center;
+}
+
+.head{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: cursive;
+    padding-right: 280px;
+    color: crimson;
+}
+
+.tail{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: cursive;
+    color: darkorange;
+}
+
+
+
+input[type=radio] {
+    border: 0px;
+    width: 3%;
+    height: 2em;
+}
+
+.toss{
+    width: 20%;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: deeppink;
+    letter-spacing: 0.3em;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    background-color: coral;
+    border-radius: 10px;
+
+}
+
+#user1 #user2{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#finallResult{
+    font-size: 30px;
+    color: deepskyblue;
+    width: 100%;
+    font-weight: bold;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.2em;
+
+}
+
+#choice{
+    margin-top: 40px;
+}
+
+@media screen and (max-width:750px) {
+    .score h3{
+        width: 30%;
+    }
+
+}
+
+
+
+@media screen and (max-width:550px) {
+    .head , .tail{
+        font-size: 40px;
+    }
+
+    .head{
+        padding-right: 40px;
+    }
+
+    input[type=radio] {
+        border: 2px;
+        width: 5%;
+        height: 1em;
+    }
+
+    #dice{
+        width: 40%;
+    }
+
+    .toss{
+        width: 40%;
+    }
+
+    .score h3{
+        width: 40%;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+
+    #dice{
+        width: 80%;
+    }
+
+    .head , .tail{
+        font-size: 35px;
+    }
+
+    .toss{
+        width: 80%;
+    }
+
+    .score{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .score h3{
+        width: 100%;
+    }
+
+
+}
+    
+
